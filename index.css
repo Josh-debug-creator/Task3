@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  border: 1px solid black;
+  background-color: cyan;
+  width:700px;
+  display: block;
+  margin: auto;
+
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-between;
+}
+
+
+.logo {
+  height: 40px;
+  margin: auto;
+  margin-top: 20px;
+}
+img{
+  margin:auto;
+  display: block;
+}
+h1 {
+  color: rgb(0, 21, 60);
+  font-size: 50px;
+  letter-spacing: 5px;
+  word-spacing: 20px;
+}
+h1 span {
+  color: black;
+}
+.division {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 7px;
+  margin: 20px;
+}
+.school {
+  display: inline;
+}
+
+.small-line {
+  width: 150px;
+  height: 2px;
+  vertical-align: center;
+  background-color: black;
+}
+.inside{
+    padding: 12px;
+    margin-top: -20px;
+    background-color: blue;
+    max-width:400px;
+    height: 70px;
+   text-align: center;
+}
+.inside h2{
+    text-align: center;  
+    color: white;
+    font-size: 40px;
+    text-transform:uppercase ;
+}
+.list{
+margin: 20px 30px; 
+  text-transform:uppercase ;
+}
+li{
+  margin-left: 50px;
+  margin-top: 10px;
+  
+}
